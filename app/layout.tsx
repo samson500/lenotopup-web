@@ -19,18 +19,22 @@ export const metadata: Metadata = {
   keywords: [
     "LENOTOPUP",
     'lenotopup',
-    'leno topup', 
+    'leno topup',
     "Earn money Nigeria",
     "Airtime commission",
     "Bill payment commission",
     "VTU business",
     "Make money online Nigeria",
   ],
+  icons: {
+    icon: "/favicon.ico",  
+  },
   openGraph: {
     title: "LENOTOPUP - Earn Daily From Airtime & Bill Payments",
     description:
       "Earn up to ₦18,850 daily and withdraw directly to your local bank account. Become a LENOTOPUP agent today.",
     type: "website",
+    url: "https://www.lenotopup.com", 
   },
 };
 
