@@ -48,13 +48,25 @@ export default function HomePage() {
           </div>
 
           <motion.a
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.95 }}
-            href="#register"
-            className="bg-emerald-600 text-white px-6 py-2 rounded-full font-semibold shadow-lg"
-          >
-            Register Now
-          </motion.a>
+  whileHover={{ scale: 1.08 }}
+  whileTap={{ scale: 0.95 }}
+  href="#register"
+  className="
+    bg-emerald-600 
+    text-white 
+    whitespace-nowrap
+    px-4 sm:px-6
+    py-2
+    text-sm sm:text-base
+    rounded-full 
+    font-semibold 
+    shadow-lg
+    flex items-center justify-center
+  "
+>
+  Register Now
+</motion.a>
+
         </div>
       </header>
 
