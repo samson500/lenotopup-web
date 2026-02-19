@@ -295,7 +295,7 @@ You can also get LENOTOPUP ATM card to withdraw money for free
           transition={{ delay: 0.2 }}
           className="text-3xl md:text-5xl font-extrabold mb-6"
         >
-          What are you waiting for ?
+          Start Earning Today🚀
         </motion.h2>
 
         <motion.a
@@ -304,7 +304,7 @@ You can also get LENOTOPUP ATM card to withdraw money for free
           href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
           className="bg-white text-emerald-600 px-12 py-5 rounded-full font-bold text-lg shadow-2xl"
         >
-          REGISTER ON LENOTOPUP NOW 🚀
+          REGISTER NOW
         </motion.a>
       </motion.section>
 
