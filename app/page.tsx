@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, easeOut } from "framer-motion";
-import Image from "next/image"; 
-
+import Image from "next/image";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
@@ -25,7 +24,6 @@ const stagger = {
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-green-100 text-gray-800 overflow-hidden">
-      
       {/* ================= NAVBAR ================= */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-emerald-100">
         <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
@@ -34,24 +32,23 @@ export default function HomePage() {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
-              src='/logo.png'
+              src="/logo.png"
               alt="LENOTOPUP Logo"
               className=""
               width={40}
               height={40}
             />
-            
-            
+
             <span className="font-extrabold text-xl text-emerald-600 tracking-wide">
               LENOTOPUP
             </span>
           </div>
 
           <motion.a
-  whileHover={{ scale: 1.08 }}
-  whileTap={{ scale: 0.95 }}
-  href="#register"
-  className="
+            whileHover={{ scale: 1.08 }}
+            whileTap={{ scale: 0.95 }}
+            href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
+            className="
     bg-emerald-600 
     text-white 
     whitespace-nowrap
@@ -63,10 +60,9 @@ export default function HomePage() {
     shadow-lg
     flex items-center justify-center
   "
->
-  Register Now
-</motion.a>
-
+          >
+            Register Now
+          </motion.a>
         </div>
       </header>
 
@@ -75,14 +71,14 @@ export default function HomePage() {
         variants={stagger}
         initial="hidden"
         animate="show"
-        className="relative text-center py-28 px-6"
+        className="relative text-center py-28 px-4 pb-0"
       >
         <div className="max-w-4xl mx-auto">
           <motion.h1
             variants={fadeUp}
             className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-emerald-600 to-green-400 bg-clip-text text-transparent mb-6"
           >
-            Earn Daily From Airtime & Bill Payments
+            Welcome to LENOTOPUP, over here we make millions together.
           </motion.h1>
 
           <motion.p
@@ -101,34 +97,15 @@ export default function HomePage() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="#register"
+              href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
               className="bg-emerald-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl"
             >
               Join Now
-            </motion.a>
-
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              href="#how"
-              className="border border-emerald-600 text-emerald-600 px-10 py-4 rounded-full font-bold text-lg"
-            >
-              Learn More
             </motion.a>
           </motion.div>
         </div>
 
         {/* Floating Image */}
-        <motion.div
-          animate={{ y: [0, -20, 0] }}
-          transition={{ repeat: Infinity, duration: 4 }}
-          className="mt-16 flex justify-center"
-        >
-          <img
-            src="https://via.placeholder.com/600x350"
-            alt="Earning illustration"
-            className="rounded-3xl shadow-2xl border border-emerald-100"
-          />
-        </motion.div>
       </motion.section>
 
       {/* ================= HOW YOU EARN ================= */}
@@ -148,31 +125,161 @@ export default function HomePage() {
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {[1, 2].map((item) => (
-            <motion.div
-              key={item}
-              variants={fadeUp}
-              whileHover={{ y: -10 }}
-              className="bg-white/70 backdrop-blur-lg border border-emerald-100 rounded-3xl p-8 shadow-xl"
-            >
-              <img
-                src="https://via.placeholder.com/400x250"
-                alt="Illustration"
-                className="rounded-2xl mb-6"
-              />
-              <h3 className="text-2xl font-bold text-emerald-600 mb-4">
-                {item === 1
-                  ? "10% Commission As An Agent"
-                  : "Daily Earnings Opportunity"}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Earn daily income and withdraw directly to your bank account
-                twice weekly without restrictions.
+          <motion.div
+            key={"image1"}
+            variants={fadeUp}
+            whileHover={{ y: -10 }}
+            className="bg-white/70 backdrop-blur-lg border border-emerald-100 rounded-3xl shadow-xl"
+          >
+            <Image
+              src="/images/image1.webp"
+              alt="Earning illustration"
+              width={600}
+              height={350}
+              className="rounded-t-3xl  border border-emerald-100"
+            />
+            <div className="p-3">
+              {/* <h3 className="text-2xl font-bold text-emerald-600 mb-4">
+                  10% Commission As An Agent
+                  
+              </h3> */}
+              <p className="text-gray-600 font-bold text-center text-xl leading-relaxed">
+                You earn up to 10 percent when others purchase Airtime data/ pay
+                bills on LENOTOPUP once you register as an agent
               </p>
-            </motion.div>
-          ))}
+            </div>
+          </motion.div>
+
+          <motion.div
+            key={"image2"}
+            variants={fadeUp}
+            whileHover={{ y: -10 }}
+            className="bg-white/70 backdrop-blur-lg border border-emerald-100 rounded-3xl shadow-xl"
+          >
+            <Image
+              src="/images/image2.webp"
+              alt="Earning illustration"
+              width={600}
+              height={350}
+              className="rounded-t-3xl border border-emerald-100"
+            />
+            <div className="p-3">
+              {/* <h3 className="text-2xl font-bold text-emerald-600 mb-4">
+                  10% Commission As An Agent
+                  
+              </h3> */}
+              <p className="text-gray-600 font-bold text-center text-xl leading-relaxed">
+                You can earn up to N18850 daily and withdraw to any of your
+                local bank accounts, you can also earn up to N7880 daily by
+                performing simple social media jobs/task
+              </p>
+            </div>
+          </motion.div>
         </div>
       </motion.section>
+
+      <motion.section
+        id="commission"
+        variants={stagger}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="max-w-6xl mx-auto px-6 py-20"
+      >
+        <motion.h2
+          variants={fadeUp}
+          className="text-4xl font-bold text-center mb-8"
+        >
+          How do I get commissions from LENOTOPUP?
+        </motion.h2>
+
+        <div className="flex align-middle justify-center gap-10">
+          <motion.div
+            key={"image3"}
+            variants={fadeUp}
+            whileHover={{ y: -10 }}
+
+            className="bg-white/70 backdrop-blur-lg border max-w-120 border-emerald-100 rounded-3xl shadow-xl"
+          >
+            <div className="p-5">
+              <h3 className="text-2xl text-center font-bold text-emerald-600 mb-4">
+                10% Commission As An Agent
+              </h3>
+              <p className="text-gray-600  text-center leading-relaxed">
+                Once you login to your LENOTOPUP account you will claim 10
+                percent of any amount others use to pay bills,
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </motion.section>
+
+
+      <motion.section
+        id="withdraw"
+        variants={stagger}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="max-w-6xl mx-auto px-6 py-20"
+      >
+        
+   <motion.h1
+            variants={fadeUp}
+            className="text-2xl md:text-2xl text-center font-extrabold bg-gradient-to-r from-emerald-600 to-green-400 bg-clip-text text-transparent mb-5"
+          >
+                Withdrawal is twice a week Monday and Friday for the full day 
+          </motion.h1>
+        <div className="grid md:grid-cols-2 gap-10">
+          <motion.div
+            key={"image1"}
+            variants={fadeUp}
+            whileHover={{ y: -10 }}
+            className="bg-white/70 backdrop-blur-lg border border-emerald-100 rounded-3xl shadow-xl"
+          >
+            <Image
+              src="/images/image3.webp"
+              alt="withdraw illustration"
+              width={600}
+              height={350}
+              className="rounded-3xl  border border-emerald-100"
+            />
+            
+          </motion.div>
+
+          
+          <motion.div
+            key={"image4"}
+            variants={fadeUp}
+            whileHover={{ y: -10 }}
+            className="bg-white/70 backdrop-blur-lg border border-emerald-100 rounded-3xl shadow-xl"
+          >
+            <Image
+              src="/images/image4.webp"
+              alt="Earning illustration"
+              width={600}
+              height={350}
+              className="rounded-3xl border border-emerald-100"
+            />
+            
+          </motion.div>
+
+          
+
+          
+        </div>
+      </motion.section>
+
+      <motion.h1
+            variants={fadeUp}
+            className="text-2xl md:text-2xl text-center font-extrabold bg-gradient-to-r from-emerald-600 to-green-400 bg-clip-text text-transparent mb-6"
+          >
+You can also get LENOTOPUP ATM card to withdraw money for free 
+
+          </motion.h1>
+
+
+      
 
       {/* ================= CTA ================= */}
       <motion.section
@@ -186,18 +293,18 @@ export default function HomePage() {
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="text-4xl md:text-5xl font-extrabold mb-6"
+          className="text-3xl md:text-5xl font-extrabold mb-6"
         >
-          Start Earning Today 🚀
+          What are you waiting for ?
         </motion.h2>
 
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          href="#"
+          href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
           className="bg-white text-emerald-600 px-12 py-5 rounded-full font-bold text-lg shadow-2xl"
         >
-          REGISTER NOW
+          REGISTER ON LENOTOPUP NOW 🚀
         </motion.a>
       </motion.section>
 
