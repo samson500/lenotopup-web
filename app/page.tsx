@@ -47,7 +47,7 @@ export default function HomePage() {
           <motion.a
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
-            href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
+            href="https://chat.whatsapp.com/Fi13a6uAdbWAvDSoeiAK08?mode=gi_t"
             className="
     bg-emerald-600 
     text-white 
@@ -71,7 +71,7 @@ export default function HomePage() {
         variants={stagger}
         initial="hidden"
         animate="show"
-        className="relative text-center py-28 px-4 pb-0"
+        className="relative text-center py-28 mb-4 px-4 pb-0"
       >
         <div className="max-w-4xl mx-auto">
           <motion.h1
@@ -97,7 +97,7 @@ export default function HomePage() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
+              href = "https://chat.whatsapp.com/Fi13a6uAdbWAvDSoeiAK08?mode=gi_t"
               className="bg-emerald-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl"
             >
               Join Now
@@ -109,7 +109,7 @@ export default function HomePage() {
       </motion.section>
 
       {/* ================= HOW YOU EARN ================= */}
-      <motion.section
+      {/* <motion.section
         id="how"
         variants={stagger}
         initial="hidden"
@@ -139,10 +139,7 @@ export default function HomePage() {
               className="rounded-t-3xl  border border-emerald-100"
             />
             <div className="p-3">
-              {/* <h3 className="text-2xl font-bold text-emerald-600 mb-4">
-                  10% Commission As An Agent
-                  
-              </h3> */}
+              
               <p className="text-gray-600 font-bold text-center text-xl leading-relaxed">
                 You earn up to 10 percent when others purchase Airtime data/ pay
                 bills on LENOTOPUP once you register as an agent
@@ -164,10 +161,7 @@ export default function HomePage() {
               className="rounded-t-3xl border border-emerald-100"
             />
             <div className="p-3">
-              {/* <h3 className="text-2xl font-bold text-emerald-600 mb-4">
-                  10% Commission As An Agent
-                  
-              </h3> */}
+            
               <p className="text-gray-600 font-bold text-center text-xl leading-relaxed">
                 You can earn up to N18850 daily and withdraw to any of your
                 local bank accounts, you can also earn up to N7880 daily by
@@ -176,9 +170,9 @@ export default function HomePage() {
             </div>
           </motion.div>
         </div>
-      </motion.section>
+      </motion.section> */}
 
-      <motion.section
+      {/* <motion.section
         id="commission"
         variants={stagger}
         initial="hidden"
@@ -213,9 +207,9 @@ export default function HomePage() {
           </motion.div>
         </div>
       </motion.section>
+ */}
 
-
-      <motion.section
+      {/* <motion.section
         id="withdraw"
         variants={stagger}
         initial="hidden"
@@ -276,7 +270,7 @@ export default function HomePage() {
           >
 You can also get LENOTOPUP ATM card to withdraw money for free 
 
-          </motion.h1>
+          </motion.h1> */}
 
 
       
@@ -287,7 +281,7 @@ You can also get LENOTOPUP ATM card to withdraw money for free
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-center py-28 px-6 bg-gradient-to-r from-emerald-600 to-green-500 text-white"
+        className="text-center py-28  px-6 bg-gradient-to-r from-emerald-600 to-green-500 text-white"
       >
         <motion.h2
           initial={{ y: 40, opacity: 0 }}
@@ -301,7 +295,7 @@ You can also get LENOTOPUP ATM card to withdraw money for free
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          href="https://t.me/Lenotopupverifiedagent?text=Greetings%20to%20you%20LENOTOPUP%20AGENT%2C%20i%20was%20directed%20from%20LENOTOPUP%20app/website%20to%20make%20payment%20for%20registration,%20so%20that%20i%20can%20start%20making%20money%20on%20LENOTOPUP"
+          href="https://chat.whatsapp.com/Fi13a6uAdbWAvDSoeiAK08?mode=gi_t"
           className="bg-white text-emerald-600 px-12 py-5 rounded-full font-bold text-lg shadow-2xl"
         >
           REGISTER NOW
