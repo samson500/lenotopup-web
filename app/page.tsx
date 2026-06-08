@@ -47,7 +47,7 @@ export default function HomePage() {
           <motion.a
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
-            href="https://chat.whatsapp.com/Fi13a6uAdbWAvDSoeiAK08?mode=gi_t"
+            href="https://chat.whatsapp.com/KtRHyiwXlAW7MJ8ScK3mf3"
             className="
     bg-emerald-600 
     text-white 
@@ -97,7 +97,7 @@ export default function HomePage() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href = "https://chat.whatsapp.com/Fi13a6uAdbWAvDSoeiAK08?mode=gi_t"
+              href = "https://chat.whatsapp.com/KtRHyiwXlAW7MJ8ScK3mf3"
               className="bg-emerald-600 text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl"
             >
               Join Now
@@ -295,7 +295,7 @@ You can also get LENOTOPUP ATM card to withdraw money for free
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          href="https://chat.whatsapp.com/Fi13a6uAdbWAvDSoeiAK08?mode=gi_t"
+          href="https://chat.whatsapp.com/KtRHyiwXlAW7MJ8ScK3mf3"
           className="bg-white text-emerald-600 px-12 py-5 rounded-full font-bold text-lg shadow-2xl"
         >
           REGISTER NOW
