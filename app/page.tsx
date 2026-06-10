@@ -74,12 +74,25 @@ export default function HomePage() {
         className="relative text-center py-28 mb-4 px-4 pb-0"
       >
         <div className="max-w-4xl mx-auto">
-          <motion.h1
+          {/* <motion.h1
             variants={fadeUp}
             className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-emerald-600 to-green-400 bg-clip-text text-transparent mb-6"
           >
             Welcome to LENOTOPUP, over here we make millions together.
-          </motion.h1>
+          </motion.h1> */}
+
+          <motion.div
+            variants={fadeUp}
+            className="mt-10 mb-5 flex justify-center gap-6 flex-wrap"
+          >
+            <Image
+              src="/images/hero.webp"
+              alt="Earning illustration"
+              width={600}
+              height={350}
+            />
+            
+          </motion.div>
 
           <motion.p
             variants={fadeUp}
